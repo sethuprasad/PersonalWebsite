@@ -612,27 +612,98 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
+# announcement
 --------------------------------------------------------------*/
-.counts {
-  padding: 30px 0;
-}
-
-.counts .counters span {
-  font-size: 48px;
-  display: block;
-  color: #003466;
-  font-weight: 700;
-}
-
-.counts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
+.announcement .content h3 {
   font-weight: 600;
-  color: #37423b;
+  font-size: 26px;
 }
+
+.announcement .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.announcement .content ul li {
+  padding-bottom: 10px;
+}
+
+.announcement .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #003466;
+}
+
+.announcement .content .learn-more-btn {
+  background: #fac01a;
+  color: #003466;
+  border-radius: 50px;
+  padding: 8px 25px 9px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.announcement .content .learn-more-btn:hover {
+  background: #00274d;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .announcement .content .learn-more-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# news & Equipment
+--------------------------------------------------------------*/
+.news .equipment .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.news .equipment .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news .equipment .content ul li {
+  padding-bottom: 10px;
+}
+
+.news .equipment .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #003466;
+}
+
+.news .equipment .content .learn-more-btn {
+  background: #fac01a;
+  color: #003466;
+  border-radius: 50px;
+  padding: 8px 25px 9px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.news .equipment .content .learn-more-btn:hover {
+  background: #00274d;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .news .equipment .content .learn-more-btn {
+    margin: 0 48px 0 0;
+    padding: 6px 18px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Why Us
