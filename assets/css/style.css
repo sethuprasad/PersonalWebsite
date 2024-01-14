@@ -12,12 +12,12 @@ body {
     color:#fff;
 }
 a {
-  color: #003466;
+  color: #3496f3;
   text-decoration: none;
 }
 
 a:hover {
-  color: #86db9f;
+  color: #b6b007 ;
   text-decoration: none;
 }
 
@@ -661,6 +661,31 @@ section {
 /*--------------------------------------------------------------
 # news & Equipment
 --------------------------------------------------------------*/
+
+.news .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.news .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news .content ul li {
+  padding-bottom: 10px;
+}
+
+.news .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #003466;
+}
+
+
+/*--------------------------------------------------------------
+# news & Equipment
+--------------------------------------------------------------*/
 .news .equipment .content h3 {
   font-weight: 600;
   font-size: 26px;
@@ -881,6 +906,49 @@ section {
   font-size: 18px;
   color: #657a6d;
 }
+
+
+/*--------------------------------------------------------------
+# Equipments
+--------------------------------------------------------------*/
+.equipments .equipment-item {
+  border-radius: 5px;
+  border: 1px solid #eef0ef;
+}
+
+.equipments .equipment-content {
+  padding: 15px;
+}
+
+.equipments .equipment-content h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.equipments .equipment-content h3 a {
+  color: #37423b;
+  transition: 0.3s;
+}
+
+.equipments .equipment-content h3 a:hover {
+  color: #031b32 ;
+}
+
+.equipments .equipment-content p {
+  font-size: 14px;
+  color: #777777;
+}
+
+.equipments .equipment-content h4 {
+  font-size: 14px;
+  background: #00274d;
+  padding: 7px 14px;
+  color: #fff;
+  margin: 0;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Trainers
