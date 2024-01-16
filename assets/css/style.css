@@ -611,6 +611,9 @@ section {
   }
 }
 
+
+
+
 /*--------------------------------------------------------------
 # announcement
 --------------------------------------------------------------*/
@@ -905,6 +908,26 @@ section {
 .courses .trainer .trainer-rank {
   font-size: 18px;
   color: #657a6d;
+}
+
+.courses .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.courses .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.courses .content ul li {
+  padding-bottom: 10px;
+}
+
+.courses .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #003466;
 }
 
 
