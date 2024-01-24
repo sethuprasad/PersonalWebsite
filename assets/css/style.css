@@ -12,12 +12,12 @@ body {
     color:#fff;
 }
 a {
-  color: #3496f3;
+  color: #003466;
   text-decoration: none;
 }
 
 a:hover {
-  color: #b6b007 ;
+  color: #ffd200 ;
   text-decoration: none;
 }
 
@@ -821,6 +821,11 @@ section {
   font-weight: 700;
   margin: 0 0 30px 0;
 }
+.why-us .icon-boxes .icon-box h4 a {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
 
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
@@ -870,7 +875,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Courses
+# Why Us - quick links
 --------------------------------------------------------------*/
 .courses .course-item {
   border-radius: 5px;
@@ -1100,7 +1105,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c1ecce;
+  color: #1b0fc5;
   font-size: 26px;
 }
 
