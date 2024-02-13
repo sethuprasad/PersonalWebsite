@@ -688,6 +688,8 @@ section {
   color: #003466;
 }
 
+
+
 /*--------------------------------------------------------------
 # news & Equipment
 --------------------------------------------------------------*/
@@ -1738,7 +1740,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #3ac162;
+  background: #0f04ea;
 }
 
 #footer .credits {
